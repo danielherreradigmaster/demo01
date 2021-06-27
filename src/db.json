@@ -1,0 +1,32 @@
+{
+  "chuspito": [
+    {
+      "id": 1,
+      "title": "666"
+    },
+    {
+      "id": 2,
+      "title": "777"
+    },
+    {
+      "id": 3,
+      "title": "888"
+    }
+  ],
+  "masteriano": [
+    {
+      "id": 1,
+      "body": "obelisco",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "natural",
+      "postId": 1
+    }
+  ],
+  "profesor": {
+    "name": "javascript"
+  }
+}
+
