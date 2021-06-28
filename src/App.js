@@ -1,8 +1,8 @@
 import React from "react";
-import MiParrafo from "./components/MiParrafo";
+import Routers from "./routers";
 
 export default function App() {
   return (
-    <MiParrafo />
+    <Routers />  
   );
 }

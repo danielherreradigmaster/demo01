@@ -1,5 +1,5 @@
 import React from 'react';
-import './miParrafo.scss';
+import './styles.scss';
 
 const MiParrafo = () => (
   <p>soy un parra super amistoso</p>
