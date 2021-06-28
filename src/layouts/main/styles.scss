@@ -1,0 +1,82 @@
+@import '../../sass/abstracts/variables';
+
+.main-layout {  
+  /* height: 100vh; */
+  
+  .ant-row {
+    width: 100%;
+  }
+  
+  .ant-layout-header {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .ant-layout-sider {
+    padding-top: 64px;
+    max-width: none !important;
+    height: 100%;
+    width: 100% !important;
+    background-color: #F7F8FC;
+
+    @media #{$mq-xs} {
+      height: 308px;
+    }
+  }
+  
+  .ant-layout-content {
+    padding-top: 64px;
+    height: 100%;
+    background-color: white;
+  }
+
+  &__sider-content {   
+    margin-left: 32px;
+    margin-right: 24%;
+    text-align: left;
+
+    @media #{$mq-xs} {
+    }
+  }
+
+  &__sub-title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #494F66;
+  }
+
+  &__title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.6px;
+    color: #494F66;
+  }
+
+  &__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #676F8F;
+  }
+
+  &__sider-img {
+    height: 250px;
+    top: 92px;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  
+}
