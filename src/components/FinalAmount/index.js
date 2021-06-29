@@ -21,7 +21,7 @@ const FinalAmount = () => {
     <div className='final-amount'>
       <div className='final-amount__info-monto'>
         <span className='final-amount__monto'>Monto</span>
-        <span className='final-amount__precio'>$35.00</span>
+        <span className='final-amount__precio'>$20.00</span>
         <span className='final-amount__date'>MENSUAL</span>
       </div>
       <Divider className='final-amount__dividir' />

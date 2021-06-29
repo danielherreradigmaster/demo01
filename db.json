@@ -12,8 +12,8 @@
       "placa_vehiculo": "C2U-114",
       "modelo_vehiculo": "Wolkswagen 2019 Golf",
       "tipo_moneda": "$",
-      "minimo_valor": 12.500,
-      "maximo_valor": 16.500
+      "minimo_valor": 12500,
+      "maximo_valor": 19500
     },{
       "id": 2,
       "primer_nombre": "Daniel",
@@ -26,8 +26,8 @@
       "placa_vehiculo": "C2U-114",
       "modelo_vehiculo": "Wolkswagen 2019 Golf",
       "tipo_moneda": "$",
-      "minimo_valor": 12.500,
-      "maximo_valor": 16.500
+      "minimo_valor": 11000,
+      "maximo_valor": 18000
     },{
       "id": 3,
       "primer_nombre": "Daniel",
@@ -40,8 +40,8 @@
       "placa_vehiculo": "C2U-114",
       "modelo_vehiculo": "Wolkswagen 2019 Golf",
       "tipo_moneda": "$",
-      "minimo_valor": 12.500,
-      "maximo_valor": 16.500
+      "minimo_valor": 14500,
+      "maximo_valor": 19500
     },{
       "id": 4,
       "primer_nombre": "Daniel",
@@ -54,8 +54,8 @@
       "placa_vehiculo": "C2U-114",
       "modelo_vehiculo": "Wolkswagen 2019 Golf",
       "tipo_moneda": "$",
-      "minimo_valor": 12.500,
-      "maximo_valor": 16.500
+      "minimo_valor": 10500,
+      "maximo_valor": 25500
     },{
       "id": 5,
       "primer_nombre": "Daniel",
@@ -68,8 +68,8 @@
       "placa_vehiculo": "C2U-114",
       "modelo_vehiculo": "Wolkswagen 2019 Golf",
       "tipo_moneda": "$",
-      "minimo_valor": 12.500,
-      "maximo_valor": 16.500
+      "minimo_valor": 12500,
+      "maximo_valor": 16500
     }
   ]
 }

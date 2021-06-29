@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSelector } from 'react-redux'
 import { Row, Col } from 'antd';
 import { LeftCircleOutlined } from '@ant-design/icons';
 
@@ -9,13 +10,20 @@ import Coverage from '../../components/Coverage';
 import FinalAmount from '../../components/FinalAmount';
 
 const Cotizar = () => {
+  const { user } = useSelector(state => state.cotizar);
+  console.log(user);
+
   return (
     <div className='cotizar'>
       <Row>
         <Col xs={24} md={14}>
           <span className='cotizar__volver'><LeftCircleOutlined /> VOLVER</span>
-          <ClientData />
-          <SumAssured />
+          <ClientData 
+            user={user}
+          />
+          <SumAssured 
+            user={user}
+          />
           <Coverage />
         </Col>
         <Col xs={24} md={10}>

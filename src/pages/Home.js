@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import {useDispatch} from 'react-redux';
 import { Form, Input, Button, Checkbox, Select } from 'antd';
 
-import { getUser } from '../store/cotizar';
+import { getUser, sendUser } from '../store/cotizar';
 import './styles.scss';
 
 const { Option } = Select;
@@ -42,8 +42,9 @@ const Inicio = () => {
   const sendData = async (e) => {
     try {
       e.preventDefault();
-      await dispatch(getUser(user));
-      //goPage();
+      await dispatch(sendUser(user));
+      await dispatch(getUser());
+      goPage();
     } catch (error) {      
     }
   };

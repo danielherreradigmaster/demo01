@@ -1,16 +1,21 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-import { apiGetUser } from '../api/user';
+import { apiGetUser, apiSendUser } from '../api/user';
 
 
 const slice = createSlice({
   name: 'cotizar',
   initialState: {
-    user: [],
+    user: {},
   },
   reducers: {
     userSuccess: (state, action) => {
-      console.log(action);
+      const user = action.payload.shift();
+      state.user = {...user, ...state.user};
+      console.log(state.user);
+      console.log('superchuspito');
+    },
+    setUser: (state, action) => {
       state.user = action.payload;
     },
   },
@@ -19,12 +24,21 @@ const slice = createSlice({
 export default slice.reducer
 
 
-const { userSuccess } = slice.actions
+const { userSuccess, setUser } = slice.actions
 
-export const getUser = (data) => async dispatch => {
+export const getUser = () => async dispatch => {
   try {
-    const response = await apiGetUser(data);
+    const response = await apiGetUser();
     dispatch(userSuccess(response));
+  } catch (e) {
+    return console.error(e.message);
+  }
+}
+
+export const sendUser = (data) => async dispatch => {
+  try {
+    const response = await apiSendUser(data);
+    dispatch(setUser(response));
   } catch (e) {
     return console.error(e.message);
   }
