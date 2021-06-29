@@ -1,32 +1,76 @@
 {
-  "chuspito": [
+  "usuarios": [
     {
       "id": 1,
-      "title": "666"
-    },
-    {
+      "primer_nombre": "Daniel",
+      "segundo_nombre": "Omar",
+      "apellido_paterno": "Herrera",
+      "apellido_materno": "Rojas",
+      "tipo_documento": "DNI",
+      "numero_documento": 47502112,
+      "celular": 947386789,
+      "placa_vehiculo": "C2U-114",
+      "modelo_vehiculo": "Wolkswagen 2019 Golf",
+      "tipo_moneda": "$",
+      "minimo_valor": 12.500,
+      "maximo_valor": 16.500
+    },{
       "id": 2,
-      "title": "777"
-    },
-    {
+      "primer_nombre": "Daniel",
+      "segundo_nombre": "Omar",
+      "apellido_paterno": "Herrera",
+      "apellido_materno": "Rojas",
+      "tipo_documento": "DNI",
+      "numero_documento": 47502112,
+      "celular": 947386789,
+      "placa_vehiculo": "C2U-114",
+      "modelo_vehiculo": "Wolkswagen 2019 Golf",
+      "tipo_moneda": "$",
+      "minimo_valor": 12.500,
+      "maximo_valor": 16.500
+    },{
       "id": 3,
-      "title": "888"
+      "primer_nombre": "Daniel",
+      "segundo_nombre": "Omar",
+      "apellido_paterno": "Herrera",
+      "apellido_materno": "Rojas",
+      "tipo_documento": "DNI",
+      "numero_documento": 47502112,
+      "celular": 947386789,
+      "placa_vehiculo": "C2U-114",
+      "modelo_vehiculo": "Wolkswagen 2019 Golf",
+      "tipo_moneda": "$",
+      "minimo_valor": 12.500,
+      "maximo_valor": 16.500
+    },{
+      "id": 4,
+      "primer_nombre": "Daniel",
+      "segundo_nombre": "Omar",
+      "apellido_paterno": "Herrera",
+      "apellido_materno": "Rojas",
+      "tipo_documento": "DNI",
+      "numero_documento": 47502112,
+      "celular": 947386789,
+      "placa_vehiculo": "C2U-114",
+      "modelo_vehiculo": "Wolkswagen 2019 Golf",
+      "tipo_moneda": "$",
+      "minimo_valor": 12.500,
+      "maximo_valor": 16.500
+    },{
+      "id": 5,
+      "primer_nombre": "Daniel",
+      "segundo_nombre": "Omar",
+      "apellido_paterno": "Herrera",
+      "apellido_materno": "Rojas",
+      "tipo_documento": "DNI",
+      "numero_documento": 47502112,
+      "celular": 947386789,
+      "placa_vehiculo": "C2U-114",
+      "modelo_vehiculo": "Wolkswagen 2019 Golf",
+      "tipo_moneda": "$",
+      "minimo_valor": 12.500,
+      "maximo_valor": 16.500
     }
-  ],
-  "masteriano": [
-    {
-      "id": 1,
-      "body": "obelisco",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "natural",
-      "postId": 1
-    }
-  ],
-  "profesor": {
-    "name": "javascript"
-  }
+  ]
 }
 
