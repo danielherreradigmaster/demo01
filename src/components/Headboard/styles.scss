@@ -1,0 +1,67 @@
+@import '../../sass/abstracts/variables';
+
+.headboard {
+  
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+  color: #6769FF;
+
+  @media #{$mq-md} {
+    padding: 0 8%;
+  }
+  
+  &__contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  &__logo {
+    height: 16px;
+  }
+
+  &__doubt {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #676F8F;
+    display: none;
+
+    @media #{$mq-md} {
+      display: block;
+    }
+  }
+
+  &__phone-icon {
+    height: 19.2px;
+    margin: 0 8px;
+  }
+
+  &__call {
+    @media #{$mq-md} {
+      display: none;
+    }
+  }
+
+  &__phone {
+    display: none;
+
+    @media #{$mq-md} {
+      display: block;
+    }
+  }
+}

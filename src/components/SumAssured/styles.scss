@@ -1,0 +1,56 @@
+@import '../../sass/abstracts/variables';
+
+.sum-assured {
+
+  background: #FFFFFF;
+  padding: 44px 32px 36px;
+
+  @media #{$mq-md} {
+    background-color: #FFFFFF;
+    padding-left: 96px;
+  }
+
+  &__container {
+
+    @media #{$mq-md} {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__range {
+    margin-bottom: 16px;
+    text-align: left;
+
+    @media #{$mq-md} {
+      margin-bottom: 0;
+    }
+  }
+
+  &__range-title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #494F66;
+    margin-bottom: 4px;
+    text-align: left;
+  }
+
+  &__range-value {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #676F8F;
+  }
+  
+}

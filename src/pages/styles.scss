@@ -1,0 +1,61 @@
+@import '../sass/abstracts/variables';
+
+.home-container {
+  padding: 40px 32px 54px;
+
+  @media #{$mq-md} {
+    padding: 0;
+    width: 288px;
+    margin-left: 20%;
+    padding-top: 112px;
+  }
+
+  .ant-input-group-addon {
+    background: none;
+  }
+
+  .ant-input {
+    height: 56px;
+    border-radius: 4px;
+  }
+
+  &__title {
+    text-align: left;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #494F66;
+    margin-bottom: 24px;
+  }
+
+  &__politics {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px !important;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #676F8F;
+
+    a {
+      text-decoration: underline;
+      color: inherit;
+      font-weight: 700;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    border-radius: 8px;
+    height: 56px;
+
+    @media #{$mq-md} {
+      width: 192px;
+      float: left;
+    }
+  }
+}

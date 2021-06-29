@@ -1,0 +1,91 @@
+@import '../../sass/abstracts/variables';
+
+.client-data {
+  height: 340px;
+  padding: 40px 32px 56px;
+  background-color: #F7F8FC;
+  text-align: left;
+
+  @media #{$mq-md} {
+    background-color: #FFFFFF;
+    padding-left: 96px;
+  }
+
+  &__title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.6px;
+    color: #494F66;
+    margin-bottom: 8px;
+
+    @media #{$mq-md} {
+      font-size: 40px;
+      line-height: 48px;
+    }
+  }
+
+  &__sub-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #676F8F;
+    margin-bottom: 24px;
+
+    @media #{$mq-md} {
+      margin-bottom: 44px;
+    }
+  }
+
+  &__car-info {
+    position: relative;
+    height: 148px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 44px 106px 36px 24px;
+
+    @media #{$mq-md} {
+      border: 3px solid #F0F2FA;
+      border-radius: 12px;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    height: 156px;
+    bottom: 0;
+    right: 0;
+    
+    @media #{$mq-md} {
+      height: 179px;
+    }
+  }
+
+  &__placa {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #A3ABCC;
+    margin-bottom: 0;
+  }
+
+  &__modelo {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #494F66;
+    margin-bottom: 0;
+  }
+}

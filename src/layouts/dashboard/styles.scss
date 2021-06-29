@@ -1,28 +1,24 @@
 .dashboard-layout {
-  height: 100vh;
   
   .ant-row {
     width: 100%;
   }
   
   .ant-layout-header {
-    background: transparent;
-    position: absolute;
-    width: 100%;
-    z-index: 1;
+    padding: 0;
+    background: #FFFFFF;
+    border: 1px solid #E4E8F7;
   }
   
   .ant-layout-sider {
-    padding-top: 64px;
     max-width: none !important;
     height: 100%;
     width: 100% !important;
-    background-color: violet;
+    background: #F7F8FC;
   }
   
   .ant-layout-content {
-    padding-top: 64px;
+    background: #FFFFFF;
     height: 100%;
-    background-color: green;
-  }
+  }  
 }

@@ -1,0 +1,30 @@
+@import '../../sass/abstracts/variables';
+
+.cotizar { 
+  &__volver {
+    display: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #A3ABCC;
+    padding-left: 96px;
+    text-align: left;
+    padding-top: 52px;
+    align-items: center;
+
+    span {
+      font-size: 24px;
+      color: red;
+      margin-right: 10px;
+    }
+
+    @media #{$mq-md} {
+      display: flex;
+    }
+  }
+}

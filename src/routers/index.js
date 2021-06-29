@@ -3,29 +3,14 @@ import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 
 import DashboardLayout from '../layouts/dashboard/DashboardLayout';
 import MainLayout from '../layouts/main/MainLayout';
-import Prueba01 from '../pages/Prueba01';
-import Prueba02 from '../pages/Prueba02';
-import Prueba03 from '../pages/Prueba03';
-import Prueba04 from '../pages/Prueba04';
+import Cotizar from '../pages/cotizar';
 import Home from '../pages/Home';
 import Error404 from '../pages/Error404';
 
 const dasboardPages = [
   {
     path: '/',
-    element: <Prueba01 />,
-  },
-  {
-    path: '/prueba2',
-    element: <Prueba02 />,
-  },
-  {
-    path: '/prueba3',
-    element: <Prueba03 />,
-  },
-  {
-    path: '/prueba4',
-    element: <Prueba04 />,
+    element: <Cotizar />,
   },
 ];
 
