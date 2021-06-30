@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import { Divider } from 'antd';
 import { Button } from 'antd';
 import { List } from 'antd';
@@ -12,16 +13,19 @@ const data = [
   'Aros gratis',
 ];
 
-const FinalAmount = () => {
-  const goPage = (e) => {
-    e.preventDefault();
+const FinalAmount = ({
+  finalAmount= 0
+}) => {
+  let navigate = useNavigate();
+  const goPage = () => {   
+    navigate(`/finished`);
   };
 
   return (
     <div className='final-amount'>
       <div className='final-amount__info-monto'>
         <span className='final-amount__monto'>Monto</span>
-        <span className='final-amount__precio'>$20.00</span>
+        <span className='final-amount__precio'>${finalAmount}.00</span>
         <span className='final-amount__date'>MENSUAL</span>
       </div>
       <Divider className='final-amount__dividir' />

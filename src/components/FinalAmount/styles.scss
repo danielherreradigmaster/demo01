@@ -80,30 +80,30 @@
   }
 
   &__lo-quiero {
-    width: 168px;
-    height: 44px;
-    border-radius: 6px;
+    width: 168px !important;
+    height: 44px !important;
+    border-radius: 6px !important;
 
     @media #{$mq-md} {
-      width: 224px;
+      width: 224px !important;
     }
   }
 
   &__dividir {
-    display: none;
+    display: none !important;
 
     @media #{$mq-md} {
-      display: block;
+      display: block !important;
     }
   }
 
   &__list {
     display: none;
-    text-align: left;
-    margin-bottom: 15px;
+    text-align: left !important;
+    margin-bottom: 15px !important;
 
     @media #{$mq-md} {
-      display: block;
+      display: block !important;
     }
   }
 
@@ -132,6 +132,6 @@
 
   .ant-list-header,
   .ant-list-item {
-    border: none;
+    border: none !important;
   }
 }

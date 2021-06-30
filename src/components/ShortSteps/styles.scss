@@ -3,11 +3,11 @@
 .short-steps {
   
   &__big {
-    display: none;
-    padding: 52px 0 0 32%;
+    display: none !important;
+    padding: 52px 0 0 32% !important;
     
     @media #{$mq-md} {
-      display: block;
+      display: flex !important;
     }
   }
   

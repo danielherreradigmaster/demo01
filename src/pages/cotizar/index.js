@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useSelector } from 'react-redux'
 import { Row, Col } from 'antd';
 import { LeftCircleOutlined } from '@ant-design/icons';
@@ -11,7 +11,8 @@ import FinalAmount from '../../components/FinalAmount';
 
 const Cotizar = () => {
   const { user } = useSelector(state => state.cotizar);
-  console.log(user);
+  const [showCovertura, setShowCovertura] = useState(false);  
+  const [finalAmount, setFinalAmount] = useState(105);  
 
   return (
     <div className='cotizar'>
@@ -23,11 +24,18 @@ const Cotizar = () => {
           />
           <SumAssured 
             user={user}
+            setShowCovertura={setShowCovertura}
           />
-          <Coverage />
+          <Coverage 
+            showCovertura={showCovertura}
+            finalAmount={finalAmount}
+            setFinalAmount={setFinalAmount}
+          />
         </Col>
         <Col xs={24} md={10}>
-          <FinalAmount />
+          <FinalAmount 
+            finalAmount={finalAmount}
+          />
         </Col>
       </Row>
     </div>

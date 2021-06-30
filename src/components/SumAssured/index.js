@@ -4,7 +4,7 @@ import InputNumber from '../InputNumber';
 
 import './styles.scss';
 
-const SumAssured = ({ user }) => {
+const SumAssured = ({ user, setShowCovertura }) => {
   return (
     <div className='sum-assured'>
       <div className='sum-assured__container'>
@@ -13,6 +13,7 @@ const SumAssured = ({ user }) => {
           <span className='sum-assured__range-value'>MIN ${user.minimo_valor}  <Divider type="vertical" /> MAX ${user.maximo_valor}</span>
         </div>
         <InputNumber 
+          setShowCovertura={setShowCovertura}
           aument={100}
           minimoValor={user.minimo_valor}
           maximoValor={user.maximo_valor}
