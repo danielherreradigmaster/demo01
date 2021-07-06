@@ -1,6 +1,6 @@
 import React from 'react';
-
-import './styles.scss';
+        
+import './styles.scss';  
 import doctor from '../../assets/img/doctor.png'
 
 const ClientData = ({ user }) => {
