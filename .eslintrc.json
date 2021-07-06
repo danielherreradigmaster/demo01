@@ -13,7 +13,7 @@
             "jsx": true
         },
         "ecmaVersion": 12,
-        "sourceType": "modulhhhhhhhhe"
+        "sourceType": "module"
     },
     "plugins": [
         "react",
